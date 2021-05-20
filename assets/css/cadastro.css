@@ -1,5 +1,16 @@
+.bg-light {
+     display: flex;
+     align-items: center;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background: url(../img/background.jpg);
+ }
+
 .container {
-  max-width: 500px;
+    max-width: 500px;
+	background-color: white;
+	-webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
 }
 
 .radio {
