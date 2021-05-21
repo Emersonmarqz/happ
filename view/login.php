@@ -40,7 +40,8 @@
         <input type="checkbox" value="remember-me"> Lembrar-se
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Logar</button>
+    
+    <a class="w-100 btn btn-primary btn-lg" href="profile.php" role="button">Logar</a>
 
     <br>
     <br>

@@ -4,17 +4,20 @@
      padding-top: 40px;
      padding-bottom: 40px;
      background: url(../img/background.jpg);
+	 background-repeat: no-repeat;
  }
 
 .container {
+	display: flex;
     max-width: 500px;
 	background-color: white;
-	-webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
-	box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .radio {
-  	display: inline-block;
+	display: inline-block;
 	width: 50%;
 	vertical-align: top;
 }
@@ -22,6 +25,7 @@
 .grupo-radio .radio:first-child {
 	margin-top: 0;
 }
+
 .bd-placeholder-img {
 	font-size: 1.125rem;
 	text-anchor: middle;

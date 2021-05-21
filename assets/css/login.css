@@ -23,17 +23,18 @@
      padding-top: 40px;
      padding-bottom: 40px;
      background: url(../img/background.jpg);
-     
- }
-
- .form-signin {
-     width: 100%;
-     max-width: 450px;
-     padding: 15px;
-     margin: auto;
-     background: #fff;
-     -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
-     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+     background-repeat: no-repeat;
+    }
+    
+    .form-signin {
+        width: 100%;
+        max-width: 450px;
+        padding: 15px;
+        margin: auto;
+        background: #fff;
+        -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
  }
 
  .form-signin .checkbox {
