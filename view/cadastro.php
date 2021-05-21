@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
-    <title>Cadastroa · Happen.</title>
+    <title>Cadastroa · Happen</title>
   </head>
 
   <body class="bg-light">
