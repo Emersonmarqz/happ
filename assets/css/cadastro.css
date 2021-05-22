@@ -1,6 +1,4 @@
 .bg-light {
-     display: flex;
-     align-items: center;
      padding-top: 40px;
      padding-bottom: 40px;
      background: url(../img/background.jpg);
@@ -8,12 +6,10 @@
  }
 
 .container {
-	display: flex;
     max-width: 500px;
 	background-color: white;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
+	border: 50px;
+	border-radius: 0.5rem;
 }
 
 .radio {

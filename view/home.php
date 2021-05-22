@@ -19,7 +19,7 @@
             <li><a href="#menu" onclick="toggleMenu();">Soluções</a></li>
             <li><a href="planos/planos.html" onclick="toggleMenu();">Planos</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Fale Conosco</a></li>
-            
+
         </ul>
     </header>
     <section class="banner" id="banner">
@@ -164,33 +164,33 @@
                         <img src="../assets/img/testi1.jpg">
                     </div>
                     <div class="text">
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                       tem leite então bota uma pinga aí cumpadi!</p>   
-                    <h3>Bianca Andrade</h3>
-                    </div> 
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
+                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <h3>Bianca Andrade</h3>
+                    </div>
                 </div>
-                
+
                 <div class="box">
                     <div class="imgBx">
                         <img src="../assets/img/testi2.jpg">
                     </div>
                     <div class="text">
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                       tem leite então bota uma pinga aí cumpadi!</p>   
-                    <h3>Gustavo José</h3>
-                    </div> 
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
+                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <h3>Gustavo José</h3>
+                    </div>
                 </div>
-                
+
                 <div class="box">
                     <div class="imgBx">
                         <img src="../assets/img/testi3.jpg">
                     </div>
                     <div class="text">
-                    <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                       tem leite então bota uma pinga aí cumpadi!</p>   
-                    <h3>Gabriela Almeida</h3>
-                    </div> 
-                </div>       
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
+                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <h3>Gabriela Almeida</h3>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -221,16 +221,16 @@
         </div>
 
         <script type="text/javascript">
-            window.addEventListener('scroll', function () {
+            window.addEventListener('scroll', function() {
                 const header = document.querySelector('header');
                 header.classList.toggle("sticky", window.scrollY > 0);
             });
 
-            function toggleMenu(){
-               const menuToggle = document.querySelector('.menuToggle');
-               const navigation = document.querySelector('.navigation');
-               menuToggle.classList.toggle('active');
-               navigation.classList.toggle('active');
+            function toggleMenu() {
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
             }
         </script>
 </body>
