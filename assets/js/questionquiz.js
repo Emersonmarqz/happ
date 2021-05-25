@@ -3,7 +3,7 @@ let questions = [
     {
     numb: 1,
     question: "Se todo mundo mundo com quem trabalho fosse como eu, seria mais fácil de deixar as coisas prontas.",
-    answer: "False",
+    answer: "Falso",
     options: [
       "Talvez",
       "Verdade",
