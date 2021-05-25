@@ -154,7 +154,9 @@
                     <br>
                     <br>
                     <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
-                    <p class="mt-5 mb-3 text-muted">&copy; 2021 Squad Dionísio</p>
+                    <br>
+                    <br>
+                    <a class="mt-5 mb-3 text-muted" href="#">&copy; 2021 Squad Dionísio</a>
                 </form>
             </div>
     </div>

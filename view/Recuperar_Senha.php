@@ -32,36 +32,18 @@
         <input type="email" class="form-control" id="floatingInput" placeholder="nome@examplo.com">
         <label for="floatingInput">Endereço de Email</label>
       </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
-        <label for="floatingPassword">Senha</label>
-      </div>
-
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Lembrar-se
-        </label>
-      </div>
-
-      <a class="w-100 btn btn-primary btn-lg" href="profile.php" role="button">Logar</a>
-
       <br>
       <br>
-      <p>Ainda não possui cadastro?</p>
-      <a href="cadastro.php" role="button">Cadastre-se</a>
-      <p>Esqueceu sua senha?</p>
-      <a href="Recuperar_Senha.php" role="button">Recuperar senha</a>
-
+      <a class="w-100 btn btn-primary btn-lg" href="#" role="button">Recuperar Senha</a>
+      <br>
+      <br>
       <hr>
-      <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
+      <a class="w-100 btn btn-primary btn-lg" href="login.php" role="button">Voltar</a>
       <br>
       <br>
-      <a class="mt-5 mb-3 text-muted" href="#">&copy; 2021 Squad Dionísio</a>
+      <a class="mt-5 mb-3 text-muted" href="#" role="button">&copy; 2021 Squad Dionísio</a>
     </form>
   </main>
-
-
-
 </body>
 
 </html>

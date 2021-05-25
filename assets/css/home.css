@@ -35,7 +35,7 @@ p {
 .btn {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #0d6efd;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -74,7 +74,7 @@ header.sticky .logo {
     color: #111;
 }
 header .logo span {
-    color: #ff0157;
+    color: #0d6efd;
 }
 header .navigation {
     position: relative;
@@ -94,7 +94,7 @@ header.sticky .navigation li a {
     color: #111;
 }
 header .navigation li a:hover {
-    color: #ff0157;
+    color: #0d6efd;
 }
 section {
     padding: 100px;
@@ -116,7 +116,7 @@ section {
     font-weight: 300;
 }
 .titleText span {
-    color: #ff0157;
+    color: #0d6efd;
     font-weight: 700;
     font-size: 1.5em; 
 }
@@ -262,7 +262,7 @@ section {
     margin-top: 20px;
     color: #111;
     font-size: 1em;
-    color: #ff0157;
+    color: #0d6efd;
     font-weight: 600;
 }
 .contact {
@@ -301,7 +301,7 @@ section {
 .contactForm .inputBox input[type="submit"] {
     font-size: 1em;
     color: #fff;
-    background: #ff0157;
+    background: #0d6efd;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
@@ -321,7 +321,7 @@ section {
     color: #333;
 }
 .copyrightText a {
-    color: #ff0157;
+    color: #0d6efd;
     font-weight: 500;
     text-decoration: none;
 }
@@ -359,14 +359,14 @@ section {
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(images/menu.png);
+        background: url(../img/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active {
-        background: url(images/close.png);
+        background: url(../img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
