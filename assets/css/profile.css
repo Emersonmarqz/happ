@@ -1,12 +1,10 @@
 body {
-    margin-top: 20px;
     color: #1a202c;
     text-align: left;
     background-color: #474a51;
 }
 
 .img-nav {
-
     border-radius: 100%;
     -o-border-radius: 100%;
     -webkit-border-radius: 100%;
