@@ -7,9 +7,9 @@
   <title>Perfil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- Imports-->
   <link href="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../assets/css/profile.css">
-  <!-- Icon-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 </head>
