@@ -22,12 +22,11 @@
         <img src="../assets/img/happen.png" style=" max-width:118px; 
                     max-height:60px"></a>
 
-      <div style="width: 30%;">
-        <i class="bi bi-house-door icons"></i>
-        <i class="bi bi-inbox icons"></i>
-        <i class="bi bi-compass icons"></i>
-        <i class="bi bi-heart icons"></i>
-        <img class="img-nav" src="https://pbs.twimg.com/profile_images/2219688007/545780_241668505941059_100002937331440_453790_2116523974_n_400x400.jpg">
+      <div style="width: 30%">
+        <a class="bi bi-house-door icons" href="home.php"></a>
+        <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
+        <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
+        <a class="bi bi-person icons" href="profile.php" role="button"></a>
       </div>
     </div>
   </nav>
@@ -248,6 +247,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div class="copyrightText">
+              <p>&copy; 2021 <a href="#"> Squad Dionisio</a>. All Right Reserved</p>
             </div>
           </div>
         </div>

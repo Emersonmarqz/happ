@@ -19,7 +19,6 @@
             <li><a href="#menu" onclick="toggleMenu();">Soluções</a></li>
             <li><a href="planos/planos.html" onclick="toggleMenu();">Planos</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Fale Conosco</a></li>
-
         </ul>
     </header>
     <section class="banner" id="banner">
