@@ -9,7 +9,8 @@
 }
 
 body {
-    background: #007bff;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
 }
 
 ::selection {
@@ -23,10 +24,6 @@ body {
 
 #quit {
     height: 80px !important;
-}
-
-#timer {
-    
 }
 
 .start_btn,

@@ -156,7 +156,11 @@
                     <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
                     <br>
                     <br>
-                    <a class="mt-5 mb-3 text-muted" href="#">&copy; 2021 Squad Dionísio</a>
+                    <br>
+                    <br>
+                    <div class="copyrightText">
+                        <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
+                    </div>
                 </form>
             </div>
     </div>

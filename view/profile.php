@@ -7,38 +7,37 @@
   <title>Perfil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Imports-->
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- CSS -->
   <link rel="stylesheet" href="../assets/css/profile.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+
+  <!-- Imports Boottrap-->
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 </head>
 
-<!-- Nav-->
-<header>
-  <nav class="navbar navbar-light nav-top">
-    <div class="container-fluid nav-container">
-      <a class="navbar-brand" href="home.php">
-        <img src="../assets/img/happen.png" style=" max-width:118px; 
-                    max-height:60px"></a>
-
-      <div style="width: 30%">
-        <a class="bi bi-house-door icons" href="home.php"></a>
-        <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
-        <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
-        <a class="bi bi-person icons" href="profile.php" role="button"></a>
-      </div>
-    </div>
-  </nav>
-</header>
-
-</header>
-
-<br>
-<br>
-<br>
 
 <body>
+
+  <!-- Nav-->
+  <header>
+    <nav class="navbar navbar-light nav-top" id="nav-bar">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="home.php">
+          <img src="../assets/img/happen.png" style=" max-width:118px; 
+                    max-height:60px"></a>
+
+        <div style="width: 30%">
+          <a class="bi bi-house-door icons" href="home.php"></a>
+          <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
+          <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
+          <a class="bi bi-person icons" href="profile.php" role="button"></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <div class="container">
     <div class="main-body">
 
@@ -248,9 +247,8 @@
                 </div>
               </div>
             </div>
-
             <div class="copyrightText">
-              <p>&copy; 2021 <a href="#"> Squad Dionisio</a>. All Right Reserved</p>
+              <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
             </div>
           </div>
         </div>

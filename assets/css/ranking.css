@@ -1,34 +1,29 @@
-
-
 .ranking {
     position: relative;
     flex-direction: column;
     word-wrap: break-word;
-    background-color: #fbfbfb;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
     background-clip: border-box;
     border: 0 solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    display: flex !important;
     justify-content: center !important;
     align-items: center !important;
 }
 
 .podium {
-        position: relative;
-        flex-direction: column;
-        word-wrap: break-word;
-        background-color: #fbfbfb;
-        background-clip: border-box;
-        border: 0 solid rgba(0, 0, 0, 0.125);
-        border-radius: 0.25rem;
-        display: flex !important;
+        display: flex;
         justify-content: center !important;
         align-items: center !important;
+        border-radius: 0.25rem;
+}
+
+.card-podium {
+    align-items: center;
 }
 
 body {
-    margin-top: 25%;
-    color: #1a202c;
     text-align: left;
-    background-color: #474a51;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
 }

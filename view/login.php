@@ -57,7 +57,10 @@
       <a href="Recuperar_Senha.php" role="button">Recuperar senha</a>
       <br>
       <br>
-      <a class="mt-5 mb-3 text-muted" href="#">&copy; 2021 Squad Dionísio</a>
+
+      <div class="copyrightText">
+        <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
+      </div>
     </form>
   </main>
 
