@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="icon" type="image/png" href="../assets/img/happen.png">
     <link rel="stylesheet" href="../assets/css/home.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
