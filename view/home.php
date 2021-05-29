@@ -17,7 +17,7 @@
             <li><a href="#" onclick="toggleMenu();">Inicio</a></li>
             <li><a href="login.php" onclick="toggleMenu();">Login</a></li>
             <li><a href="#menu" onclick="toggleMenu();">Soluções</a></li>
-            <li><a href="planos/planos.html" onclick="toggleMenu();">Planos</a></li>
+            <li><a href="planos.php" onclick="toggleMenu();">Planos</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Fale Conosco</a></li>
         </ul>
     </header>
