@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>color contact list - Bootdey.com</title>
+    <title>Squad Dionisio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
@@ -11,6 +11,14 @@
 </head>
 
 <body>
+<header>
+        <a href="home.php" class="logo">Happen<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="planos.php" onclick="toggleMenu();">Planos</a></li>
+        </ul>
+    </header>
 
     <div class="container">
         <div class="row row-cols-3 row-col-sm-6 row-cols-xl-5 margin">
@@ -102,8 +110,20 @@
         </div>
         <br>
         <br>
-        <a class="w-100 btn btn-primary btn-lg text-center" href="../index.php" role="button">Voltar</a>
     </div>
+    <script type="text/javascript">
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+
+            function toggleMenu() {
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
 
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

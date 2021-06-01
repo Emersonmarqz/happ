@@ -7,11 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../assets/css/planos.css">
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	
 </head>
 
 <body class="bd-01">
-<header id="menu">
-        <p href="home.php" class="logo">Happen<span>.</span></p>
+	<header id="menu">
+		<a href="home.php" class="logo">Happen<span>.</span></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation" style="margin-left: 1500px; !important">
             <li><a href="home.php" onclick="toggleMenu();">Inicio</a></li>
