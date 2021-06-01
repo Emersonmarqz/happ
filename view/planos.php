@@ -10,10 +10,10 @@
 </head>
 
 <body class="bd-01">
-<header>
+<header id="menu">
         <p href="home.php" class="logo">Happen<span>.</span></p>
         <div class="menuToggle" onclick="toggleMenu();"></div>
-        <ul class="navigation">
+        <ul class="navigation" style="margin-left: 1500px; !important">
             <li><a href="home.php" onclick="toggleMenu();">Inicio</a></li>
             <li><a href="login.php" onclick="toggleMenu();">Login</a></li>
             <li><a href="planos.php" onclick="toggleMenu();">Planos</a></li>

@@ -10,28 +10,28 @@
     <link rel="stylesheet" href="../assets/css/quiz.css">
     <!-- FontAweome CDN Link for Icons-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
-<!-- Nav-->
+<body>
 <header>
     <nav class="navbar navbar-light nav-top" id="nav-bar">
-        <div class="container-fluid nav-container">
-            <a class="navbar-brand" href="home.php">
-                <img src="../assets/img/happen.png" style=" max-width:118px; 
-                max-height:60px"></a>
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="home.php">
+          <img src="../assets/img/happen.png" style=" max-width:118px; 
+                    max-height:60px"></a>
 
-            <div style="width: 20%">
-                <a class="bi bi-house-door icons" href="home.php"></a>
-                <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
-                <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
-                <a class="bi bi-person icons" href="profile.php" role="button"></a>
-            </div>
+        <div style="width: 30%;">
+          <a class="bi bi-house-door icons" href="home.php"></a>
+          <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
+          <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
+          <a class="bi bi-person icons" href="profile.php" role="button"></a>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-<body>
     <!-- start Quiz button -->
     <div class="start_btn"><button>Jogar</button></div>
 
