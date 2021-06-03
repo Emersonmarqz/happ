@@ -217,7 +217,7 @@
         </section>
 
         <div class="copyrightText">
-            <p>Copyright 2021 <a href="#">Squad Dionisio</a>. All Right Reserved</p>
+            <p>Copyright 2021 <a href="squad.php">Squad Dionisio</a>. All Right Reserved</p>
         </div>
 
         <script type="text/javascript">

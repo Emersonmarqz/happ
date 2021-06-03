@@ -82,6 +82,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="copyrightText" id="copyright">
+        <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
+      </div>
 </div>
 </div>
 <script type="text/javascript">

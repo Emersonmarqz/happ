@@ -22,7 +22,7 @@
      align-items: center;
      padding-top: 40px;
      padding-bottom: 40px;
-     background: url(../img/background.png);
+     background: #1d222c !important;
      background-repeat: no-repeat;
     }
     
@@ -56,3 +56,16 @@
      border-top-left-radius: 0;
      border-top-right-radius: 0;
  }
+ .copyrightText {
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p {
+    color: #000;
+}
+.copyrightText a {
+    color: #0d6efd;
+    font-weight: 500;
+    text-decoration: none;
+}

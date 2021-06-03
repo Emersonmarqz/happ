@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="row gutters-sm ranking" style="background-color: #474a51;">
+    <div class="row gutters-sm ranking">
         <div class="col-md-4 mb-3">
             <div class="card">
                 <div class="card-body">

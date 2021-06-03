@@ -2,7 +2,7 @@
     position: relative;
     flex-direction: column;
     word-wrap: break-word;
-    background: url(../img/background.png);
+    background: #1d222c;
     background-repeat: no-repeat;
     background-clip: border-box;
     border: 0 solid rgba(0, 0, 0, 0.125);
@@ -24,6 +24,17 @@
 
 body {
     text-align: left;
-    background: url(../img/background.png);
-    background-repeat: no-repeat;
+    background: #1d222c;
+}
+.copyrightText {
+    padding: 8px 40px;
+    text-align: center;
+}
+.copyrightText p {
+    color: #fff;
+}
+.copyrightText a {
+    color: #0d6efd;
+    font-weight: 500;
+    text-decoration: none;
 }
