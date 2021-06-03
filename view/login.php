@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.83.1">
-  <title>Signin Template · Bootstrap v5.0</title>
+  <title>Login</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 

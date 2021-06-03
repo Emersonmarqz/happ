@@ -3,6 +3,7 @@
 
 <head>
 
+  <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
   <meta charset="utf-8" />
   <title>Perfil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,7 +54,7 @@
                   <p class="text-muted font-size-sm">
                     Jardim Paulista, Paulista-PE
                   </p>
-                  <button class="btn btn-primary">Seguir</button>
+                  <button class="btn btn-primary">Editar</button>
                 </div>
               </div>
             </div>

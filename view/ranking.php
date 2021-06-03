@@ -3,6 +3,7 @@
 
 
 <head>
+    <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="UTF-8">
     <title>Ranking</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

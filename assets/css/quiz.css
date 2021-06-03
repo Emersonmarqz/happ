@@ -267,7 +267,7 @@ section .option_list .option .icon {
 }
 
 footer {
-    height: 60px;
+    height: 97px;
     padding: 0 30px;
     display: flex;
     align-items: center;
@@ -316,6 +316,7 @@ footer button.show {
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
+    margin-left: 380px;
 }
 
 .result_box {

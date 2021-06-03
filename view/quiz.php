@@ -3,9 +3,10 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Quiz App | CodingNepal</title>
+    <title>Quiz Happen</title>
     <link rel="stylesheet" href="../assets/css/navbar.css">
     <link rel="stylesheet" href="../assets/css/quiz.css">
     <!-- FontAweome CDN Link for Icons-->
@@ -15,22 +16,22 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-light nav-top" id="nav-bar">
-      <div class="container-fluid nav-container">
-        <a class="navbar-brand" href="home.php">
-          <img src="../assets/img/happen.png" style=" max-width:118px; 
+    <header>
+        <nav class="navbar navbar-light nav-top" id="nav-bar">
+            <div class="container-fluid nav-container">
+                <a class="navbar-brand" href="home.php">
+                    <img src="../assets/img/happen.png" style=" max-width:118px; 
                     max-height:60px"></a>
 
-        <div style="width: 30%;">
-          <a class="bi bi-house-door icons" href="home.php"></a>
-          <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
-          <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
-          <a class="bi bi-person icons" href="profile.php" role="button"></a>
-        </div>
-      </div>
-    </nav>
-  </header>
+                <div style="width: 30%;">
+                    <a class="bi bi-house-door icons" href="home.php"></a>
+                    <a class="bi bi-puzzle icons" href="quiz.php" role="button"></a>
+                    <a class="bi bi-trophy icons" href="ranking.php" role="button"></a>
+                    <a class="bi bi-person icons" href="profile.php" role="button"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <!-- start Quiz button -->
     <div class="start_btn"><button>Jogar</button></div>

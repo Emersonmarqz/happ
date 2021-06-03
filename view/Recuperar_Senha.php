@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.83.1">
-  <title>Signin Template · Bootstrap v5.0</title>
+  <title>Recuperar Senha</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
@@ -41,7 +42,9 @@
       <a class="w-100 btn btn-primary btn-lg" href="login.php" role="button">Voltar</a>
       <br>
       <br>
-      <a class="mt-5 mb-3 text-muted" href="#" role="button">&copy; 2021 Squad Dionísio</a>
+      <div class="copyrightText">
+        <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
+      </div>
     </form>
   </main>
 </body>

@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="utf-8">
     <title>Squad Dionisio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-<header>
+    <header>
         <a href="home.php" class="logo">Happen<span>.</span></a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
@@ -112,18 +113,18 @@
         <br>
     </div>
     <script type="text/javascript">
-            window.addEventListener('scroll', function() {
-                const header = document.querySelector('header');
-                header.classList.toggle("sticky", window.scrollY > 0);
-            });
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
 
-            function toggleMenu() {
-                const menuToggle = document.querySelector('.menuToggle');
-                const navigation = document.querySelector('.navigation');
-                menuToggle.classList.toggle('active');
-                navigation.classList.toggle('active');
-            }
-        </script>
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
 
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

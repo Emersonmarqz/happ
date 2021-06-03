@@ -3,12 +3,13 @@
 <link href="../assets/css/cadastro.css" rel="stylesheet">
 
 <head>
+    <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
-    <title>Cadastroa · Happen</title>
+    <title>Cadastro</title>
 </head>
 
 <body class="bg-light">
