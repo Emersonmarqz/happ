@@ -21,49 +21,18 @@
             <div class="py-5 text-center">
                 <form class="needs-validation" novalidate>
                     <div class="row g-3">
-                        <div class="col-sm-6">
-                            <label for="firstName" class="form-label">Nome</label>
+                        <div class="col-sm-12">
+                            <label for="firstName" class="form-label">Razão social</label>
                             <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 Nome inválido
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <label for="lastName" class="form-label">Sobrenome</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                Sobrenome Inválido
-                            </div>
-                        </div>
                         <div class="col-12">
-                            <label for="lastName" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="password" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                Senha Inválida
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="lastName" class="form-label">Confirme Sua Senha</label>
-                            <input type="password" class="form-control" id="password-confirmation" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                Senha diferente
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="firstName" class="form-label">CPF (Apenas Números)</label>
-                            <input type="text" maxlength="11" class="form-control" id="cpf" placeholder="" value="" required>
+                            <label for="firstName" class="form-label">CNPJ (Apenas Números)</label>
+                            <input type="text" maxlength="14" class="form-control" id="cpf" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 CPF Inválido
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <label for="username" class="form-label">Nome do usuário</label>
-                            <div class="input-group has-validation">
-                                <span class="input-group-text">@</span>
-                                <input type="text" class="form-control" id="username" placeholder="Nome de usuário" required>
-                                <div class="invalid-feedback">
-                                    Digite um Nome de Usuário
-                                </div>
                             </div>
                         </div>
                         <div class="col-12">
@@ -73,80 +42,43 @@
                                 Email Inválido
                             </div>
                         </div>
-                        <div class="col-12">
-                            <label for="address" class="form-label">Endereço</label>
-                            <input type="text" class="form-control" id="address" placeholder="Rua, Avenida" required>
-                            <div class="invalid-feedback">
-                                Endereço Inválido
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <label for="country" class="form-label">País</label>
-                            <select class="form-select" id="country" required>
-                                <option value="">Escolher...</option>
-                                <option>Brasil</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Selecione um País
-                            </div>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="col-6">
                             <label for="state" class="form-label">Estado</label>
-                            <select class="form-select" id="state" required>
-                                <option value="">Escolher...</option>
-                                <option>Acre (AC)</option>
-                                <option>Alagoas (AL)</option>
-                                <option>Amapá (AP)</option>
-                                <option>Amazonas (AM)</option>
-                                <option>Bahia (BA)</option>
-                                <option>Ceará (CE)</option>
-                                <option>Distrito Federal (DF)</option>
-                                <option>Espírito Santo (ES)</option>
-                                <option>Goiás (GO)</option>
-                                <option>Maranhão (MA)</option>
-                                <option>Mato Grosso (MT)</option>
-                                <option>Mato Grosso do Sul (MS)</option>
-                                <option>Minas Gerais (MG)</option>
-                                <option>Pará (PA)</option>
-                                <option>Paraíba (PB)</option>
-                                <option>Paraná (PR)</option>
-                                <option>Pernambuco (PE)</option>
-                                <option>Piauí (PI)</option>
-                                <option>Rio de Janeiro (RJ)</option>
-                                <option>Rio Grande do Norte (RN)</option>
-                                <option>Rio Grande do Sul (RS)</option>
-                                <option>Rondônia (RO)</option>
-                                <option>Roraima (RR)</option>
-                                <option>Santa Catarina (SC)</option>
-                                <option>São Paulo (SP)</option>
-                                <option>Sergipe (SE)</option>
-                                <option>Tocantins (TO)</option>
-                            </select>
+                             <input type="text" class="form-control" placeholder="Insira seu estado"> 
+                        </div>
+                        <div class="col-6">
+                            <label for="state" class="form-label">Cidade</label>
+                             <input type="text" class="form-control" placeholder="Insira sua cidade"> 
+                        </div>
+
+                    
+                        <div class="col-6" >
+                            <label for="lastName" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="" value="" required>
                             <div class="invalid-feedback">
-                                Selecione um estado
+                                Senha Inválida
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <label for="zip" class="form-label">CEP</label>
-                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                        <div class="col-6">
+                            <label for="lastName" class="form-label">Confirme Sua Senha</label>
+                            <input type="password" class="form-control" id="password-confirmation" placeholder="" value="" required>
                             <div class="invalid-feedback">
-                                CEP Inválido
+                                Senha diferente
                             </div>
                         </div>
                     </div>
-
                     <section class="check-button">
                         <hr class="my-4">
                         <div class="radio">
                             <label>
-                                <input type="radio" name="tipo-pessoa" checked>
-                                Aluno
+                                <input type="radio" name="tipo-pessoa"checked>
+                                Empresa
                             </label>
                         </div>
                         <div class="radio">
                             <label>
-                                <input type="radio" name="tipo-pessoa">
-                                Empresa
+                                <input type="radio" name="tipo-pessoa" disabled>
+                                Aluno
                             </label>
                         </div>
                         <hr>
