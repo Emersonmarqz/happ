@@ -87,7 +87,7 @@ include 'template.php';
                         </div>
                         <hr>
                     </section>
-                    <button class="w-100 btn btn-primary btn-lg" type="submit" id="sendFormRegisterCompanie">Cadastrar</button>
+                    <button class="w-100 btn btn-primary btn-lg" id="sendFormRegisterCompanie" type="submit">Cadastrar</button>
                     <br>
                     <br>
                     <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
