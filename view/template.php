@@ -4,7 +4,5 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
         crossorigin="anonymous">
   </script>
-  <!-- <script>
-    const BASE_URL = <?php echo BASE_URL; ?>
-  </script> -->
+ 
 

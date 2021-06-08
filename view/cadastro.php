@@ -48,11 +48,17 @@ include 'template.php';
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Estado</label>
-                             <input type="text" class="form-control" placeholder="Insira seu estado" id="stateCompanie"> 
+                             <input type="text" class="form-control" placeholder="Insira seu estado" id="stateCompanie" value="" required> 
+                             <div class="invalid-feedback">
+                                Estado Inválido
+                            </div>
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Cidade</label>
-                             <input type="text" class="form-control" placeholder="Insira sua cidade" id="cityCompanie"> 
+                             <input type="text" class="form-control" placeholder="Insira sua cidade" id="cityCompanie" value="" required> 
+                             <div class="invalid-feedback">
+                                Cidade Invalida
+                            </div>
                         </div>
 
                     
