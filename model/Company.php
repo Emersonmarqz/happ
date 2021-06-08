@@ -1,5 +1,5 @@
 <?php
-class Company {
+class Company extends model {
     public function createNewCompany($nameCompany, $addressCompany, $type_company){
         $sql = "INSERT INTO companies SET name_comapny ='".$nameCompany."', address ='".$addressCompany."', type_company ='".$type_company."'";
         $sql = $this->db->prepare($sql);

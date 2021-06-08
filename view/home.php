@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php 
+include 'template.php';
+?>
 <html lang="pt-br">
 
 <head>

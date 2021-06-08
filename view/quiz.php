@@ -1,7 +1,9 @@
 <!-- Created By CodingNepal - www.codingnepalweb.com  -->
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+include 'template.php';
+?>
 <head>
     <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="UTF-8">

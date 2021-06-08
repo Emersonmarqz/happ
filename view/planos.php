@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-
+<?php 
+include 'template.php';
+?>
 <head>
 	<link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
 	<meta charset="utf-8">
@@ -12,15 +14,6 @@
 </head>
 
 <body class="bd-01">
-	<header id="menu">
-		<a href="home.php" class="logo">Happen<span>.</span></a>
-		<div class="menuToggle" onclick="toggleMenu();"></div>
-		<ul class="navigation" style="margin-left: 1500px !important;">
-			<li><a href="home.php" onclick="toggleMenu();">Inicio</a></li>
-			<li><a href="login.php" onclick="toggleMenu();">Login</a></li>
-			<li><a href="planos.php" onclick="toggleMenu();">Planos</a></li>
-		</ul>
-	</header>
 	<div class="container">
 		<div class="row gutters">
 			<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">

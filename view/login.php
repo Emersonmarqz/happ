@@ -1,4 +1,7 @@
 <!doctype html>
+<?php 
+include 'template.php';
+?>
 <html lang="en">
 
 <head>

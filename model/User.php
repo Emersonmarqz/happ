@@ -1,20 +1,22 @@
 <?php
-class User {
+class User extends model{
     public function verifyPassword($idUser, $password){
-        include_once ("config.php");
         $sql ="SELECT id_user FROM users WHERE id_user = '".$idUser."' AND password = '".$password."'";
-        $mysqli->query($sql);
-        //     if($sql->rowCount() == 1){
-            //         return 'password_correct';
-            //     }
-            //         return 'invalid_password'; 
+        $sql = $this->db->prepare($sql);
+        $sql->execute();
+        if($sql->rowCount() == 1)
+        {
+            return 'password_correct';
+        }
+        return 'invalid_password'; 
         }
     
     public function changePasswordById($newPassword, $idUser){
         $sql = "UPDATE users SET password ='".$newPassword."' WHERE id_user ='".$idUser."'";
         $sql = $this->db->prepare($sql);
         $sql->execute();
-        if($sql->rowCount()>0){
+        if($sql->rowCount()>0)
+        {
             return 'sucess_edit_password';
         }
             return 'falid_edit_password';
@@ -24,7 +26,8 @@ class User {
         $sql = "SELECT id_user FROM users where user_email = '".$email."'" ;
         $sql = $this->db->prepare($sql);
         $sql->execute();
-        if($sql->rowCount() == 0){
+        if($sql->rowCount() == 0)
+        {
             return 'email_not_exists'; 
         }
             return 'email_already_exists';
@@ -42,7 +45,8 @@ class User {
         $sql = "UPDATE users SET ".$query."";
         $sql = $this->db->prepare($sql);
         $sql->execute();
-        if($sql->rowCount()>0){
+        if($sql->rowCount()>0)
+        {
             return 'sucess_edit_user';
         }
             return 'falid_edit_user';
@@ -52,7 +56,8 @@ class User {
         $sql = "UPDATE users SET user_type ='".$type."' WHERE id ='".$idUser."'";
         $sql = $this->db->prepare($sql);
         $sql->execute();
-        if($sql->rowCount()>0){
+        if($sql->rowCount()>0)
+        {
             return 'sucess_edit_type_user';
         }
             return 'falid_edit_type_user';
@@ -62,7 +67,8 @@ class User {
     public function getAllDataUserById($idUser){
         $sql = "SELECT * FROM users WHERE id ='".$idUser."'";
         $sql = $this->db->query($sql);
-        if($sql->rowCount() > 0){
+        if($sql->rowCount() > 0)
+        {
             $sql = $sql->fetch();
             $dados = array(
                 'email' => $sql['user_email'],

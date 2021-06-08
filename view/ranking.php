@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<?php 
+include 'template.php';
+?>
 
 <head>
     <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">

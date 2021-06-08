@@ -1,8 +1,12 @@
+<?php 
+include 'template.php';
+?>
 <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="../assets/css/cadastro.css" rel="stylesheet">
 
 <head>
+    
     <link rel="icon" type="image/png" href="../assets/img/happen_simbol.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,40 +19,40 @@
 <body class="bg-light">
     <div class="container">
         <main>
-            <div class="py-5 text-center">
+            <div class="py-5 text-center" style="padding-bottom: 0em !important;">
                 <img class="d-block mx-auto mb-4" src="../assets/img/happen_grey.png" alt="" width="172" height="77">
             </div>
             <div class="py-5 text-center">
-                <form class="needs-validation" novalidate>
+                <form id="formRegisterCompanie" class="needs-validation" novalidate>
                     <div class="row g-3">
                         <div class="col-sm-12">
                             <label for="firstName" class="form-label">Razão social</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <input type="text" class="form-control" id="nameCompanie" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 Nome inválido
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="firstName" class="form-label">CNPJ (Apenas Números)</label>
-                            <input type="text" maxlength="14" class="form-control" id="cpf" placeholder="" value="" required>
+                            <input type="text" maxlength="14" class="form-control" id="cnpjCompanies" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 CPF Inválido
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="joao@example.com" required>
+                            <input type="email" class="form-control" id="emailCompanie" placeholder="joao@example.com" required>
                             <div class="invalid-feedback">
                                 Email Inválido
                             </div>
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Estado</label>
-                             <input type="text" class="form-control" placeholder="Insira seu estado"> 
+                             <input type="text" class="form-control" placeholder="Insira seu estado" id="stateCompanie"> 
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Cidade</label>
-                             <input type="text" class="form-control" placeholder="Insira sua cidade"> 
+                             <input type="text" class="form-control" placeholder="Insira sua cidade" id="cityCompanie"> 
                         </div>
 
                     
@@ -83,7 +87,7 @@
                         </div>
                         <hr>
                     </section>
-                    <button class="w-100 btn btn-primary btn-lg" type="submit">Cadastrar</button>
+                    <button class="w-100 btn btn-primary btn-lg" type="submit" id="sendFormRegisterCompanie">Cadastrar</button>
                     <br>
                     <br>
                     <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
@@ -100,6 +104,6 @@
     </main>
     </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="form-validation.js"></script>
+    <script src="../assets/js/form-validation.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
