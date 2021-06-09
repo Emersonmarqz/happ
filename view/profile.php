@@ -49,10 +49,10 @@ include 'template.php';
           <div class="card">
             <div class="card-body">
               <div class="d-flex flex-column align-items-center text-center">
-                <img src="https://pbs.twimg.com/profile_images/2219688007/545780_241668505941059_100002937331440_453790_2116523974_n_400x400.jpg" alt="Admin" class="rounded-circle" width="150" />
+                <img src="../assets/img/happen_icone.png" alt="Admin" class="rounded-circle" width="150" />
                 <div class="mt-3">
-                  <h4>Deivid Araújo</h4>
-                  <p class="text-secondary mb-1">Contador</p>
+                  <h4>Escola Happen</h4>
+                  <p class="text-secondary mb-1">Escola de Soft e Digital Skills</p>
                   <p class="text-muted font-size-sm">
                     Jardim Paulista, Paulista-PE
                   </p>
