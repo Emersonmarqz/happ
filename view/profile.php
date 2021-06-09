@@ -54,9 +54,10 @@ include 'template.php';
                   <h4>Escola Happen</h4>
                   <p class="text-secondary mb-1">Escola de Soft e Digital Skills</p>
                   <p class="text-muted font-size-sm">
-                    Jardim Paulista, Paulista-PE
+                    Recife Antigo, Recife-PE
                   </p>
                   <button class="btn btn-primary">Editar</button>
+                  <button class="btn btn-primary">Cadastrar Funcionario</button>
                 </div>
               </div>
             </div>
@@ -152,21 +153,21 @@ include 'template.php';
                 <div class="col-sm-3">
                   <h6 class="mb-0">Nome Completo</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">Deivid Araujo</div>
+                <div class="col-sm-9 text-secondary">Happen Escola de Habilidades</div>
               </div>
               <hr />
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">E-mail</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">deivid_araujo@hotmail.com</div>
+                <div class="col-sm-9 text-secondary">escolahappen@hotmail.com</div>
               </div>
               <hr />
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">Telefone</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">(81) 98516-9029</div>
+                <div class="col-sm-9 text-secondary">(00) 00000-0000</div>
               </div>
               <hr />
               <div class="row">
