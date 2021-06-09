@@ -50,10 +50,10 @@ include 'template.php';
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="https://pbs.twimg.com/profile_images/2219688007/545780_241668505941059_100002937331440_453790_2116523974_n_400x400.jpg" alt="Admin" class="rounded-circle" width="150" />
+                        <img src="../assets/img/unit.png" alt="Admin" class="rounded-circle" width="150" />
                         <img src="../assets/img/second.png" alt="segundo" class="rounded-circle" width="85">
                         <div class="mt-3">
-                            <h4>Deivid Araújo</h4>
+                            <h4>Universidade Tiradentes</h4>
                             <p class="text-muted font-size-sm">
                                 102.134 Pontos
                             </p>
@@ -66,10 +66,10 @@ include 'template.php';
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="https://pbs.twimg.com/profile_images/2219688007/545780_241668505941059_100002937331440_453790_2116523974_n_400x400.jpg" alt="Admin" class="rounded-circle" width="150" />
+                        <img src="../assets/img/happen_icone.png" alt="Admin" class="rounded-circle" width="150" />
                         <img src="../assets/img/first.png" alt="primeiro" class="rounded-circle" width="105">
                         <div class="mt-3">
-                            <h4>Deivid Araújo</h4>
+                            <h4>Escola Happen</h4>
                             <p class="text-muted font-size-sm">
                                 207.002 Pontos
                             </p>
@@ -82,10 +82,10 @@ include 'template.php';
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="https://pbs.twimg.com/profile_images/2219688007/545780_241668505941059_100002937331440_453790_2116523974_n_400x400.jpg" alt="Admin" class="rounded-circle" width="150" />
+                        <img src="../assets/img/porto.jpg" alt="Admin" class="rounded-circle" width="150" />
                         <img src="../assets/img/third.png" alt="terceiro" class="rounded-circle" width="85">
                         <div class="mt-3">
-                            <h4>Deivid Araújo</h4>
+                            <h4>Porto Digital</h4>
                             <p class="text-muted font-size-sm">
                                 90.002 Pontos
                             </p>
