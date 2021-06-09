@@ -37,24 +37,20 @@ include 'template.php';
         <div class="row">
             <div class="col50">
                 <h2 class="titleText"><span>S</span>obre Nós</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                    tem leite então bota uma pinga aí cumpadi!
-                    Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Todo mundo vê os porris que eu tomo, mas ninguém vê os
-                    tombis que eu levo!<br><br>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Si num tem leite então
-                    bota uma pinga aí cumpadi! Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Todo mundo vê os porris que eu tomo,
-                    mas ninguém vê os tombis que eu levo!
-                    Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                    tem leite então bota uma pinga aí cumpadi!
-                    Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Todo mundo vê os porris que eu tomo, mas ninguém vê os
-                    tombis que eu levo!<br><br>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Si num tem leite então
-                    bota uma pinga aí cumpadi! Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,
-                    vitae iaculis nisl. Todo mundo vê os porris que eu tomo,
-                    mas ninguém vê os tombis que eu levo!</p>
+                <p>A Happen é uma startup que faz a análise e desenvolvimento de Soft e Digital Skills em organizações. 
+                Nossas soluções são personalizadas para as necessidades específicas do seu time. 
+                Com uma metodologia prática e mão na massa, já impactamos clientes em mais de 9 estados;
+                Análise de Soft e Digital Skills é uma ferramenta que entrega um mapeamento técnico de habilidades socioemocionais dos colaboradores e times; 
+                Essa é uma forma de entender as reais necessidades de capacitação de um time; 
+                Essa ferramenta pode ser utilizada de diversas formas: em processos seletivos, 
+                processos de capacitação internos e em conjunto com plano de carreiras;A Análise de Soft Skills entrega para gestores dados técnicos e específicos,
+                ajudando times a tomarem decisões cada vez mais estratégias e alinhadas com os valores da organização; 
+                Após a Análise do seu time, quer saber como desenvolver as principais habilidades para seus colaboradores? Conheça um pouco sobre as nossas capacitações;
+                Nossas capacitações OnCompany acontecem em um formato que mistura conceitos, ferramentas e muita mão na massa; Os conteúdos desses momentos de aprendizagem 
+                variam de acordo com a necessidade do time e sempre envolvem diferentes habilidades: resolução de problemas, inteligência emocional, pensamento ágil,
+                 comunicação não violenta dentre outros; Utilizamos diversas metodologias de ensino inovadoras como Flipped Classroom e Gamificação que tornam o aprendizado muito dinâmico e prático; 
+                 Não sabe qual a necessidade de capacitação do seu time? Conheça um pouco mais sobre a nossa Análise de Soft Skills;
+                </p>
             </div>
             <div class="col50">
                 <div class="imgBx">
@@ -66,7 +62,7 @@ include 'template.php';
     <div class="menu" id="menu">
         <div class="title">
             <h2 class="titleText"><span>S</span>oluções</h2>
-            <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo.</p>
+            <p>Conheca nossas principais Soluções.</p>
         </div>
         <div class="content">
             <div class="box">
@@ -118,7 +114,6 @@ include 'template.php';
         <section class="expert" id="expert">
             <div class="title">
                 <h2 class="titleText">Nossos <span>P</span>arceiros</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo.</p>
             </div>
             <div class="content">
                 <div class="box">
@@ -159,7 +154,7 @@ include 'template.php';
         <section class="testimonials" id="testimonials">
             <div class="title white">
                 <h2 class="titleText">O que nossos Clientes <span>P</span>ensam sobre Nós</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo.</p>
+                <p>Veja o que nossos clientes andam falando sobre a gente nas Redes</p>
             </div>
             <div class="content">
                 <div class="box">
@@ -167,8 +162,7 @@ include 'template.php';
                         <img src="../assets/img/testi1.jpg">
                     </div>
                     <div class="text">
-                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <p>Foi sensacional, faria o curso mais umas 10 vezes pois clareou muita mais as minhas ideias e organizações, vai me ajudar muito na minha jornada</p>
                         <h3>Bianca Andrade</h3>
                     </div>
                 </div>
@@ -178,8 +172,7 @@ include 'template.php';
                         <img src="../assets/img/testi2.jpg">
                     </div>
                     <div class="text">
-                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <p>Muito bom a experiência de aprender essas técnicas, irá influenciar e muito positivamente nas minhas atividades.</p>
                         <h3>Gustavo José</h3>
                     </div>
                 </div>
@@ -189,8 +182,7 @@ include 'template.php';
                         <img src="../assets/img/testi3.jpg">
                     </div>
                     <div class="text">
-                        <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Si num
-                            tem leite então bota uma pinga aí cumpadi!</p>
+                        <p>O curso foi incrível, as aulas eram dinâmicas e todos participavam, se eu podesse faria novamente, amei a experiencia, pena que acabou.</p>
                         <h3>Gabriela Almeida</h3>
                     </div>
                 </div>
@@ -200,7 +192,7 @@ include 'template.php';
         <section class="contact" id="contact">
             <div class="title">
                 <h2 class="titleText"><span>C</span>onecte-se conosco</h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo.</p>
+                <p>Receba a nossa Newsletter</p>
             </div>
             <div class="contactForm">
                 <h3>Fale conosco</h3>
