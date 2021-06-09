@@ -31,7 +31,7 @@ include 'template.php';
 						<li class="text-muted"><del>Participar do raking mensal</del></li>
 					</ul>
 					<div class="pricing-footer">
-						<a href="#" class="btn btn-primary btn-lg">Select Plan</a>
+						<a href="#" class="btn btn-primary btn-lg">Selecionar Plano</a>
 					</div>
 				</div>
 			</div>
@@ -50,7 +50,7 @@ include 'template.php';
 						<li class="text-muted"><del>Participar do raking mensal</del></li>
 					</ul>
 					<div class="pricing-footer">
-						<a href="#" class="btn btn-danger btn-lg">Select Plan</a>
+						<a href="#" class="btn btn-danger btn-lg">Selecionar Plano</a>
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@ include 'template.php';
 						<li >Participar do raking mensal</li>
 					</ul>
 					<div class="pricing-footer">
-						<a href="#" class="btn btn-success btn-lg">Select Plan</a>
+						<a href="#" class="btn btn-success btn-lg">Selecionar Plano</a>
 					</div>
 				</div>
 			</div>
