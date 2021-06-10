@@ -1,22 +1,5 @@
 CREATE DATABASE `happen_academy` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
--- happen_academy.companies definition
-
-CREATE TABLE `companies` (
-  `id_company` int(11) NOT NULL AUTO_INCREMENT,
-  `name_company` varchar(150) NOT NULL,
-  `email` varchar(150) NOT NULL,
-  `id_plan` int(11) DEFAULT NULL,
-  `city` varchar(100) NOT NULL,
-  `state` varchar(100) NOT NULL,
-  `password` varchar(100) DEFAULT NULL,
-  `cnpj` varchar(14) NOT NULL,
-  `speciality_company` varchar(300) DEFAULT NULL,
-  PRIMARY KEY (`id_company`),
-  UNIQUE KEY `email` (`email`),
-  KEY `companies_FK` (`id_plan`),
-  CONSTRAINT `companies_FK` FOREIGN KEY (`id_plan`) REFERENCES `plans` (`id_plan`)
-) ENGINE=InnoDB AUTO_INCREMENT=77 DEFAULT CHARSET=utf8mb4;
 
 -- happen_academy.plans definition
 
@@ -37,6 +20,24 @@ CREATE TABLE `solutions` (
   `duracao` int(11) NOT NULL,
   PRIMARY KEY (`id_solutions`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+
+-- happen_academy.companies definition
+
+CREATE TABLE `companies` (
+  `id_company` int(11) NOT NULL AUTO_INCREMENT,
+  `name_company` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `id_plan` int(11) DEFAULT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `cnpj` varchar(14) NOT NULL,
+  `speciality_company` varchar(300) DEFAULT NULL,
+  PRIMARY KEY (`id_company`),
+  UNIQUE KEY `email` (`email`),
+  KEY `companies_FK` (`id_plan`),
+  CONSTRAINT `companies_FK` FOREIGN KEY (`id_plan`) REFERENCES `plans` (`id_plan`)
+) ENGINE=InnoDB AUTO_INCREMENT=77 DEFAULT CHARSET=utf8mb4;
 
 -- happen_academy.users definition
 
