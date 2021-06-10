@@ -1,7 +1,7 @@
-<!doctype html>
 <?php 
 include 'template.php';
 ?>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -29,7 +29,7 @@ include 'template.php';
 <body class="text-center">
 
   <main class="form-signin">
-    <form>
+    <form id="formLogin">
       <img class="mb-4" src="../assets/img/happen_grey.png" alt="" width="160" height="77">
 
       <div class="form-floating">
@@ -47,7 +47,7 @@ include 'template.php';
         </label>
       </div>
 
-      <a class="w-100 btn btn-primary btn-lg" href="profile.php" role="button">Logar</a>
+      <a class="w-100 btn btn-primary btn-lg" id="buttonLogin" role="button">Logar</a>
 
 
       <hr>

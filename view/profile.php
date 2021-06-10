@@ -1,7 +1,8 @@
-<!DOCTYPE html>
 <?php 
 include 'template.php';
 ?>
+
+<!DOCTYPE html>
 
 <head>
 
@@ -22,7 +23,7 @@ include 'template.php';
 
 
 <body>
-
+<?php session_start();?>
   <!-- Nav-->
   <header>
     <nav class="navbar navbar-light nav-top" id="nav-bar">
@@ -51,7 +52,7 @@ include 'template.php';
               <div class="d-flex flex-column align-items-center text-center">
                 <img src="../assets/img/happen_icone.png" alt="Admin" class="rounded-circle" width="150" />
                 <div class="mt-3">
-                  <h4>Escola Happen</h4>
+                  <h4><?php echo $_SESSION['name_company']; ?></h4>
                   <p class="text-secondary mb-1">Escola de Soft e Digital Skills</p>
                   <p class="text-muted font-size-sm">
                     Recife Antigo, Recife-PE
@@ -151,30 +152,24 @@ include 'template.php';
             <div class="card-body">
               <div class="row">
                 <div class="col-sm-3">
-                  <h6 class="mb-0">Nome Completo</h6>
+                  <h6 class="mb-0">Nome da Empresa</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">Happen Escola de Habilidades</div>
+                <div class="col-sm-9 text-secondary"><?php echo $_SESSION['name_company']; ?></div>
               </div>
               <hr />
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">E-mail</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">escolahappen@hotmail.com</div>
+                <div class="col-sm-9 text-secondary"><?php echo $_SESSION['emailUserCompany']; ?></div>
               </div>
               <hr />
-              <div class="row">
-                <div class="col-sm-3">
-                  <h6 class="mb-0">Telefone</h6>
-                </div>
-                <div class="col-sm-9 text-secondary">(00) 00000-0000</div>
-              </div>
               <hr />
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">Estado</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">Pernambuco</div>
+                <div class="col-sm-9 text-secondary"><?php echo $_SESSION['stateCompany']; ?></div>
               </div>
               <hr />
               <div class="row">
@@ -182,7 +177,7 @@ include 'template.php';
                   <h6 class="mb-0">Cidade</h6>
                 </div>
                 <div class="col-sm-9 text-secondary">
-                    Recife
+                    <?php echo $_SESSION['cityCompany']; ?>
                 </div>
               </div>
             </div>

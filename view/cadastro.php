@@ -27,37 +27,37 @@ include 'template.php';
                     <div class="row g-3">
                         <div class="col-sm-12">
                             <label for="firstName" class="form-label">Razão social</label>
-                            <input type="text" class="form-control" id="nameCompanie" placeholder="" value="" required>
+                            <input type="text" class="inputNameCompany" id="nameCompanie" placeholder="" value="" required>
                             <div class="invalid-feedback">
-                                Nome inválido
+                                Informe o nome da empresa.
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="firstName" class="form-label">CNPJ (Apenas Números)</label>
-                            <input type="text" maxlength="14" class="form-control" id="cnpjCompanies" placeholder="" value="" required>
+                            <input type="text" maxlength="19" class="inputcnpj" id="cnpjCompanies" placeholder="" value="" required>
                             <div class="invalid-feedback">
-                                CPF Inválido
+                                Informe o CNPJ da empresa.
                             </div>
                         </div>
                         <div class="col-12">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="emailCompanie" placeholder="joao@example.com" required>
                             <div class="invalid-feedback">
-                                Email Inválido
+                            Informe o E-mail da empresa.
                             </div>
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Estado</label>
                              <input type="text" class="form-control" placeholder="Insira seu estado" id="stateCompanie" value="" required> 
                              <div class="invalid-feedback">
-                                Estado Inválido
+                                Informe o estado da empresa.
                             </div>
                         </div>
                         <div class="col-6">
                             <label for="state" class="form-label">Cidade</label>
                              <input type="text" class="form-control" placeholder="Insira sua cidade" id="cityCompanie" value="" required> 
                              <div class="invalid-feedback">
-                                Cidade Invalida
+                                Informe a cidade da empresa.
                             </div>
                         </div>
 
