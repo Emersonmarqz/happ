@@ -1,22 +1,36 @@
 $(document).ready(function(){
+
+
+    $('#formRegisterCompanie').submit(function(e) {
+        e.preventDefault();
+        nameCompanie = $('#nameCompanie').val();
+        cnpjCompanie = $('#cnpjCompanies').val();
+        emailCompanie = $('#emailCompanie').val();
+        cityCompanie = $('#cityCompanie').val();
+        stateCompanie = $('#stateCompanie').val();
+        passwordCompanie = $('#passwordCompanie').val();
+        passwordConfirm = $('#password-confirmation').val();
+        if(passwordCompanie != passwordConfirm){
+            alert('As senhas não correspondem.')
+            return;
+        }
+        dataReturnInput =  {nameCompanie, cnpjCompanie, emailCompanie, cityCompanie, stateCompanie, passwordCompanie,
+                    passwordConfirm}
+        funcRegisterPage.sendRegisterCompanies(dataReturnInput);            
+    }) 
     const funcRegisterPage = {
-        sendRegisterCompanies: ()=>{
+        sendRegisterCompanies: (data)=>{
             $.ajax({
                 type: 'POST',
-                url: '../controllers/cadastroController.php',
-                data: funcRegisterPage.getDataRegisterCompanies(),
+                url: '../requisitions/registerCompany.php',
+                data: data,
                 
                 success: (result) => {
                         const dataReturn = JSON.parse(result)
                         console.log(dataReturn);
                         if (dataReturn.status == 'company_add_success'){
-                            $.suiAlert({
-                                title: 'Cadastrado com sucesso. ',
-                                description: '',
-                                type: 'success',
-                                time: '2',
-                                position: 'bottom-left',
-                            });                            
+                            alert('Cadastro realizado com sucesso!')   
+                            return          
                         }
                     
                 },
@@ -25,18 +39,6 @@ $(document).ready(function(){
                 }
             });
         },
-        getDataRegisterCompanies: ()=>{
-            nameCompanie = $('#nameCompanie').val();
-            cnpjCompanie = $('#cnpjCompanies').val();
-            emailCompanie = $('#emailCompanie').val();
-            cityCompanie = $('#cityCompanie').val();
-            stateCompanie = $('#stateCompanie').val();
-            passwordCompanie = $('#passwordCompanie').val();
-            passwordConfirm = $('#password-confirmation').val();
-            console.log(nameCompanie, cnpjCompanie, emailCompanie, cityCompanie, stateCompanie, passwordCompanie)
-            return {nameCompanie, cnpjCompanie, emailCompanie, cityCompanie, stateCompanie, passwordCompanie,
-                        passwordConfirm}
-        }
     }
-    $('#sendFormRegisterCompanie').click(funcRegisterPage.sendRegisterCompanies);
+    $('#formRegisterCompanie').submit(funcRegisterPage.getDataRegisterCompanies);
 })

@@ -23,6 +23,7 @@ include 'template.php';
                 <img class="d-block mx-auto mb-4" src="../assets/img/happen_grey.png" alt="" width="172" height="77">
             </div>
             <div class="py-5 text-center">
+                <form id="formRegisterCompanie" class="needs-validation" novalidate>
                     <div class="row g-3">
                         <div class="col-sm-12">
                             <label for="firstName" class="form-label">Razão social</label>
@@ -63,14 +64,14 @@ include 'template.php';
                     
                         <div class="col-6" >
                             <label for="lastName" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="passwordCompanie" placeholder="" value="" required>
+                            <input type="password" class="inputPassword" id="passwordCompanie" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 Senha Inválida
                             </div>
                         </div>
                         <div class="col-6">
                             <label for="lastName" class="form-label">Confirme Sua Senha</label>
-                            <input type="password" class="form-control" id="password-confirmation" placeholder="" value="" required>
+                            <input type="password" class="inputPassword" id="password-confirmation" placeholder="" value="" required>
                             <div class="invalid-feedback">
                                 Senha diferente
                             </div>
@@ -92,7 +93,7 @@ include 'template.php';
                         </div>
                         <hr>
                     </section>
-                    <button class="w-100 btn btn-primary btn-lg" id="sendFormRegisterCompanie">Cadastrar</button>
+                    <button class="w-100 btn btn-primary btn-lg" id="sendFormRegisterCompanie" type="submit">Cadastrar</button>
                     <br>
                     <br>
                     <a class="w-100 btn btn-primary btn-lg" href="../index.php" role="button">Voltar</a>
@@ -103,7 +104,7 @@ include 'template.php';
                     <div class="copyrightText">
                         <p>&copy; 2021 <a href="squad.php"> Squad Dionisio</a>. All Right Reserved</p>
                     </div>
-              
+                </form>
             </div>
     </div>
     </main>
