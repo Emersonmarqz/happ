@@ -1,4 +1,5 @@
 <?php
+include '../config.php';
 class model {
     protected $db;
     public function __construct()

@@ -3,11 +3,21 @@ $(document).ready(function(){
         sendRegisterCompanies: ()=>{
             $.ajax({
                 type: 'POST',
-                url: '../../controllers/cadastroController/registerNewCompanie',
+                url: '../controllers/cadastroController.php',
                 data: funcRegisterPage.getDataRegisterCompanies(),
+                
                 success: (result) => {
-                        const dataReturn = JSON.parse(result);
+                        const dataReturn = JSON.parse(result)
                         console.log(dataReturn);
+                        if (dataReturn.status == 'company_add_success'){
+                            $.suiAlert({
+                                title: 'Cadastrado com sucesso. ',
+                                description: '',
+                                type: 'success',
+                                time: '2',
+                                position: 'bottom-left',
+                            });                            
+                        }
                     
                 },
                 error: (error) => {
