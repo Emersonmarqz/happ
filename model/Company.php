@@ -2,9 +2,9 @@
 include '../core/model.php';
 class Company extends model {
     public function createNewCompany($nameCompany, $cpnjCompanie, $emailCompanie, $cityCompanie, 
-                                                            $stateCompanie, $passwordCompanie){
+                                                            $stateCompanie, $passwordCompanie, $specialityCompanie){
         $sql = "INSERT INTO companies SET name_company = '$nameCompany', cnpj = '$cpnjCompanie', email = '$emailCompanie',
-                    state = '$stateCompanie', city = '$cityCompanie',  `password` = '$passwordCompanie' ";
+                    state = '$stateCompanie', city = '$cityCompanie',  `password` = '$passwordCompanie', speciality_company = '$specialityCompanie' ";
         $sql = $this->db->prepare($sql);
         $sql->execute();
         if($sql->rowCount() == 1){
@@ -35,6 +35,7 @@ class Company extends model {
                 'name_company' => $sql['name_company'],
                 'state' => $sql['state'],
                 'city' => $sql['city'],
+                'specialityCompany' => $sql['speciality_company'],
             );
             return $dados;
         }

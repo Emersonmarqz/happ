@@ -32,6 +32,14 @@ include 'template.php';
                                 Informe o nome da empresa.
                             </div>
                         </div>
+                        <div class="col-sm-12">
+                            <label for="firstName" class="form-label">Especialidade da empresa</label>
+                            <input type="text" class="inputNameCompany" id="specialityCompany" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                Informe a especialidade da empresa.
+                            </div>
+                        </div>
+
                         <div class="col-12">
                             <label for="firstName" class="form-label">CNPJ (Apenas Números)</label>
                             <input type="text" maxlength="19" class="inputcnpj" id="cnpjCompanies" placeholder="" value="" required>

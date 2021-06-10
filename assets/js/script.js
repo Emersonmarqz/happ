@@ -14,6 +14,7 @@ $(document).ready(function(){
         let stateCompanie = $('#stateCompanie').val();
         let passwordCompanie = $('#passwordCompanie').val();
         let passwordConfirm = $('#password-confirmation').val();
+        let specialityCompanie = $('#specialityCompany').val();
         if(nameCompanie < 2) {
             $('.inputNameCompany').css('background-color', '#ec121254');
         }
@@ -32,7 +33,8 @@ $(document).ready(function(){
             cityCompanie,
             stateCompanie,
             passwordCompanie,
-            passwordConfirm
+            passwordConfirm,
+            specialityCompanie
         }
         funcRegisterPage.sendRegisterCompanies(dataReturnInput);            
     });
@@ -67,7 +69,6 @@ $(document).ready(function(){
                 success: (result) => {
                     const dataReturn = JSON.parse(result)
                     if(dataReturn.dataUser != 'company_not_found'){
-                        alert('Login efetuado com sucesso!')
                         window.location.href='../view/profile.php'
                         return;
                     }

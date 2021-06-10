@@ -6,8 +6,10 @@ include '../model/Company.php';
         $cityCompanie = addslashes($_POST['cityCompanie']);
         $stateCompanie = addslashes($_POST['stateCompanie']);
         $passwordCompanie = md5($_POST['passwordCompanie']) ;
+        $specialityCompanie = addslashes($_POST['specialityCompanie']);
                     $company = new Company;
-                    $return = $company->createNewCompany($nameCompanie, $cpnjCompanie, $emailCompanie, $cityCompanie, $stateCompanie, $passwordCompanie);
+                    $return = $company->createNewCompany($nameCompanie, $cpnjCompanie, $emailCompanie,
+                                                                                         $cityCompanie, $stateCompanie, $passwordCompanie, $specialityCompanie);
                     echo json_encode(array(
                         "status" => $return
                     ));

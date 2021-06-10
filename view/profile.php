@@ -1,5 +1,6 @@
 <?php 
 include 'template.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +24,6 @@ include 'template.php';
 
 
 <body>
-<?php session_start();?>
   <!-- Nav-->
   <header>
     <nav class="navbar navbar-light nav-top" id="nav-bar">
@@ -53,9 +53,11 @@ include 'template.php';
                 <img src="../assets/img/happen_icone.png" alt="Admin" class="rounded-circle" width="150" />
                 <div class="mt-3">
                   <h4><?php echo $_SESSION['name_company']; ?></h4>
-                  <p class="text-secondary mb-1">Escola de Soft e Digital Skills</p>
+                  <p class="text-secondary mb-1"><?php echo $_SESSION['specialityCompany']; ?></p>
                   <p class="text-muted font-size-sm">
-                    Recife Antigo, Recife-PE
+                  <?php echo $_SESSION['stateCompany']; ?>
+                    -
+                    <?php echo $_SESSION['cityCompany']; ?>
                   </p>
                   <button class="btn btn-primary">Editar</button>
                   <button class="btn btn-primary">Cadastrar Funcionario</button>
@@ -156,6 +158,14 @@ include 'template.php';
                 </div>
                 <div class="col-sm-9 text-secondary"><?php echo $_SESSION['name_company']; ?></div>
               </div>
+              <hr />
+              <div class="row">
+                <div class="col-sm-3">
+                  <h6 class="mb-0">Pontuação no Quizz</h6>
+                </div>
+                <div class="col-sm-9 text-secondary"> 234 Pontos </div>
+              </div>
+
               <hr />
               <div class="row">
                 <div class="col-sm-3">
