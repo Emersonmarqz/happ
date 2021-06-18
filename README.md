@@ -5,7 +5,7 @@ Criar uma aplicação, para a empresa Happen- Escola de Habilidades, capaz de tr
 ### Tecnologias Utilizadas
 Foram utilizadas as tecnologias, PHP, CSS, HTML, JavaScript, jQuery, Bootstrap e banco de dados MySQL.
 ### Padrão de Projetos
-fizemos um CROUD utilizando a estrutura padrão MVC para ter mais facilidade com manutenções e upgrades futuros. 
+fizemos um CRUD utilizando a estrutura padrão MVC para ter mais facilidade com manutenções e upgrades futuros. 
 ### Como rodar o Projeto
 Para rodar o projeto é necessário baixar o Xampp e instalar o programa. Baixar o diretório completo do projeto, finalizado o download, basta extrair e colocar no diretório htdocs na pasta do Xampp e colar a pasta já extraída lá. Feito todos os passos, basta iniciar o aplicativo do Xamppe selecionar a opção start na sessão apache. Após iniciar, basta entrar no navegador e digitar localhost e selecionar a opção do diretório que foi adicionado anteriormente.
 ### Agradecimentos
